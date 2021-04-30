@@ -16,7 +16,7 @@
             "filename": "component-library/input/input-covid-chestxray.ipynb",
             "runtime_image": "quay.io/romeokienzler/elyra-ai:v1",
             "env_vars": [
-              "checkpoint_ip=10.96.36.230:9000",
+              "checkpoint_ip=10.96.211.13:9000",
               "checkpoint=True"
             ],
             "include_subdirectories": false,
@@ -72,7 +72,7 @@
             "runtime_image": "quay.io/romeokienzler/elyra-ai:v1",
             "env_vars": [
               "checkpoint=True",
-              "checkpoint_ip=10.96.36.230:9000"
+              "checkpoint_ip=10.96.211.13:9000"
             ],
             "include_subdirectories": false,
             "outputs": [
@@ -560,7 +560,7 @@
             "filename": "component-library/checkpoint/store_asset.ipynb",
             "runtime_image": "quay.io/romeokienzler/elyra-ai:v1",
             "env_vars": [
-              "checkpoint_ip=10.96.36.230:9000",
+              "checkpoint_ip=10.96.211.13:9000",
               "asset_name=data.zip"
             ],
             "include_subdirectories": false,
@@ -621,7 +621,7 @@
             "filename": "component-library/checkpoint/store_asset.ipynb",
             "runtime_image": "quay.io/romeokienzler/elyra-ai:v1",
             "env_vars": [
-              "checkpoint_ip=10.96.36.230:9000",
+              "checkpoint_ip=10.96.211.13:9000",
               "asset_name=metadata.csv"
             ],
             "include_subdirectories": false,
@@ -797,7 +797,7 @@
             "filename": "component-library/checkpoint/store_asset.ipynb",
             "runtime_image": "quay.io/romeokienzler/elyra-ai:v1",
             "env_vars": [
-              "checkpoint_ip=10.96.36.230:9000",
+              "checkpoint_ip=10.96.211.13:9000",
               "asset_name=model.zip"
             ],
             "include_subdirectories": false,
